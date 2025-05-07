@@ -1,0 +1,119 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #fff0f5;
+    color: #b84a4a;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  /* Secciones generales */
+  .section {
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .fecha {
+    font-size: 6vw;
+  }
+  
+  .frase {
+    font-size: 4.5vw;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .contador {
+    font-size: 6vw;
+    font-weight: bold;
+  }
+  
+  /* Botones */
+  .btn {
+    font-size: 4vw;
+    background-color: #f7a89e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .btn-confirmar {
+    background-color: #d86f72;
+    margin-top: -10px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  /* Separadores */
+  .separador img {
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+  }
+  
+  /* Imagen central */
+  .imagen-xv {
+    width: 80%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  /* Música */
+  .musica {
+    margin-top: 20px;
+  }
+  
+  .boton-musica {
+    width: 60px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .boton-musica:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #fce4ec;
+    padding: 200px 20px 100px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .footer {
+    position: relative;
+    background-color: #fce4ec;
+    padding: 200px 20px 180px; /* Más espacio abajo para el botón */
+    text-align: center;
+    margin-top: 60px;
+    z-index: 1; /* Asegura que el contenido esté encima */
+  }
+  
+  .footer-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 0; /* Detrás del contenido */
+    pointer-events: none;
+  }
+  /* Decoraciones normales (ya no fijas) */
+  .decor {
+    width: 100vw;
+    max-width: none;
+    height: auto;
+    display: block;
+    opacity: 0.7;
+    pointer-events: none;
+    margin: 0;
+  }
+  
